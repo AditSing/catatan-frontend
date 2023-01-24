@@ -1,0 +1,6 @@
+semantic html gunanya untuk memberitahu element apa yang digunakan
+
+referensi semantic dan tidak semantic bisa dicek disini
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element#inline_text_semantics
+
+cek inspect element -> element -> accessibility unntuk menemukan daftar dokument menggunakan html semantic
