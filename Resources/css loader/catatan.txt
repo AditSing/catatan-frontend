@@ -1,0 +1,7 @@
+cssloaders.github.io 
+whirl.netlify.app 
+loading.io/css 
+cssportal.com/css-loader-generator 
+codepen.io/vank0/pen/mrRwLg 
+10015.io/tools/css-loader-generator 
+ 
