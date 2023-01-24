@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="no-support">
+        <p>Heads up: It doesn't look like your browser supports <code>scroll-snap-top</code>! Check <a href="https://caniuse.com/#feat=css-snappoints">Can I use</a> for current browser support. Maybe try opening this CodePen in a different browser, like Chrome?</p>
+    </div>
+    
+    <div class="example-wrapper">
+    <p>Please note that Chrome <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=823998&q=scroll-snap-stop&colspec=ID%20Pri%20M%20Stars%20ReleaseBlock%20Component%20Status%20Owner%20Summary%20OS%20Modified">may not support</a><br><code>scroll-snap-stop: always;</code></p>
+    <p>Scroll slowly to "feel" the snap points.</p>
+    
+    <div class="container y-scroll y-mandatory">
+        <div class="wrapper">
+        <div class="element"><code>scroll-snap-stop: normal;</code></div>
+        <div class="element snap-stop-always"><code>scroll-snap-stop: always;</code></div>
+        <div class="element"><code>scroll-snap-stop: normal;</code></div>
+        <div class="element snap-stop-always"><code>scroll-snap-stop: always;</code></div>
+        <div class="element"><code>scroll-snap-stop: normal;</code></div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
